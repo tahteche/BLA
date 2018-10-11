@@ -12,10 +12,18 @@ You are given a set of rectangles that contain the barren land. These rectangles
 ### Output 
 Output all the fertile land area in square meters, sorted from smallest area to greatest, separated by a space. 
 
-### Example
+### Examples:
 
 **Input**:  `{"0 292 399 307"}`  
 **Output**: `116800  116800`
 
 **Input:** `{"48 192 351 207", "48 392 351 407", "120 52 135 547", "260 52 275 547"}`  
 **Output:** `22816 192608`
+
+## Running the Code:
+
+After cloning the repo, navigate to the directory of the repo from within your CLI and run the following code - substitute the text in braces accordingly:
+
+`python - m bla < {path/to/file/with/input}`
+
+ The input file should contain the text in the format of the inputs described in the problem statement and nothing else.
