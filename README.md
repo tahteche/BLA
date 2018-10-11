@@ -26,4 +26,10 @@ After cloning the repo, navigate to the directory of the repo from within your C
 
 `python - m bla < {path/to/file/with/input}`
 
- The input file should contain the text in the format of the inputs described in the problem statement and nothing else.
+ The input file should contain the text in the format of the inputs described in the problem statement and nothing else. Take a look at the  `blaa_input.txt` file in the repo for a refernece.
+ 
+ ## Testing:
+ 
+ To run the unit test of the program run the following command in the CLI from within the folder of the repo:
+ 
+ `python -m unittest tests.py` 
