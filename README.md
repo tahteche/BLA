@@ -32,4 +32,4 @@ After cloning the repo, navigate to the directory of the repo from within your C
  
  To run the unit test of the program run the following command in the CLI from within the folder of the repo:
  
- `python -m unittest tests.py` 
+ `python -m unittest tests`
