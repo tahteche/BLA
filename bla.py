@@ -180,6 +180,21 @@ def prepInput(inputStr):
 
     return barrenLands
 
+def prepOuput(resultArr):
+	"""
+	Receives the result as an array containing the areas of the patches of fertile
+	land sorted in ascending order and formats it as a string in the style of the
+	expected output.
+
+	If result is: [123, 456]
+	returned string will be: "123 456" 
+	"""
+	resultStr = ""
+	for item in resultArr:
+		resultStr += str(item) + " "
+
+	return resultStr + "\n"
+
 # This section only runs when this module is excuted as a command in the shell
 if __name__ == "__main__":
 
@@ -194,4 +209,4 @@ if __name__ == "__main__":
     output = land.calcFertileAreas()
     
 
-    sys.stdout.write(str(output) + "\n")
+    sys.stdout.write(prepOuput(output))
