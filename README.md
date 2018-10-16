@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/tahteche/BLA.svg?branch=master)](https://travis-ci.org/tahteche/BLA)
+
 # BLA
 Barren Land Analysis: Measure the area of patches of fertile land on a field.
 
