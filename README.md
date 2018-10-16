@@ -26,10 +26,18 @@ After cloning the repo, navigate to the directory of the repo from within your C
 
 `python - m bla < {path/to/file/with/input}`
 
- The input file should contain the text in the format of the inputs described in the problem statement and nothing else. Take a look at the  `blaa_input.txt` file in the repo for a refernece.
+The input file should contain the input data in the same format as the inputs described in the examples section of the problem statement above and nothing else. Take a look at the  `bla_input.txt` file in the repo for a refernece.
  
  ## Testing:
  
  To run the unit test of the program run the following command in the CLI from within the folder of the repo:
  
  `python -m unittest tests`
+ 
+## Optimizations:
+
+Following is a list of optimizations that were done to make the program more efficient with memory:
+
+ 1. Used iteration along with a stack for the implementation of depth-first search in comparison to recursion.
+ 2. Used an array as a stack instead of a heavier stack object.
+ 3. The same grid used to represent the land field was used to keep track of points visited by the DFS instead of using a second grid to keep track of visited points. The later approach would have consumed double the memory.
