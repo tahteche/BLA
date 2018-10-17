@@ -40,6 +40,6 @@ The input file should contain the input data in the same format as the inputs de
 
 Following is a list of optimizations that were done to make the program more efficient with memory:
 
- 1. Used iteration along with a stack for the implementation of depth-first search in comparison to recursion.
+ 1. Used iteration along with a stack for the implementation of depth-first search in place of recursion.
  2. Used an array as a stack instead of a heavier stack object.
  3. The same grid used to represent the land field was used to keep track of points visited by the DFS instead of using a second grid to keep track of visited points. The later approach would have consumed double the memory.
